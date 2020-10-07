@@ -1,0 +1,139 @@
+.App{
+    display: flex;
+    min-height: 100vh;
+}
+
+.V_Center{
+    flex:1;
+    align-self: center;
+}
+
+.fileUploader  {
+    max-width: 300px;
+    position: absolute;
+    top: 17%;
+    align-self: center;
+    padding: 2px 20px;
+    opacity: 0;
+}
+
+.video-choose-text {
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    padding: 2px 20px;
+    text-align: center;
+    background-color: #8FD8D8;
+    
+}
+
+.video-choose-text:hover {
+    cursor: pointer;
+}
+
+.FileUpload{
+    position: relative;
+    border: 1px solid #555;
+    border-radius: 2px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 12px 24px;
+    border-radius: 20px;
+    background-color: #ffffff;
+
+  }
+
+  .Progress,
+  .Progress_Seek{
+      height: 3px;
+  }
+
+  .Progress{
+      background-color: #eee;
+      margin: 24px;
+  }
+
+  .Progress_Seek{
+      background-color: green;
+  }
+
+  .images-uploaded {
+      align-self: center;
+      width: 100px;
+  }
+  
+  .vid {
+    padding: 12px 24px;
+    width: 100px;
+    margin-bottom: 100px;
+  }
+
+  .images-container {
+    align-self: center;
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+    margin-right: 720px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 12px 24px;
+  }
+
+  .submit {
+    border: none;
+    background-color: #8FD8D8;
+    color: #fff;
+    padding: 8px 40px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  .video-item {
+    position: relative;
+    align-self: center;
+    margin-top: 50px;
+  }
+
+  .video-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .delete-btn {
+    position: absolute;
+    top: 44%;
+    left: -35%;
+    background-color: #8FD8D8;
+    padding: 3px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+}
+
+  .video-descr {
+    min-width: 300px;
+    margin-left: 50px;
+  }
+
+  .form-description {
+      display: inline-block;
+      margin-bottom: 10px;
+
+  }
+
+  button {
+      display: inline-block;
+  }
+
+  .form-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+  }
