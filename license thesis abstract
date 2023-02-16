@@ -1,0 +1,16 @@
+Abstract
+
+Two of the most important results of recent technological advancements are process automation
+and making knowledge more accessible. Based on that, I have created a system that has as the main
+aim to behave like a football goalkeeping coach. Given a football game video sequence, it is able
+to show what is the optimal position for the goalkeeper, helping him to understand how to position
+himself on the pitch.
+To achieve this, the given video has to be processed by detecting the color green(the predominant
+color of the field), segmentation the image by separating the color white which belongs to the field’s
+line and after having this, it detects the bottom line. The system uses Yolo v4 combined with a deep
+sort algorithm for tracking the players from the field and the ball. From these are selected the player
+who is the closest from the ball and the goalkeeper which is found by being the closest by the bottom
+line. A velocity vector is drawn for the player who has the ball and for the goalkeeper and the result
+will suggest the correct position of the keeper.
+This work is the outcome of my own efforts. On this project, I have neither offered nor received
+unlawful help.
